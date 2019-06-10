@@ -1,0 +1,20 @@
+version: "3"
+
+services:
+  webnginx:
+    image: "pegasus-web-nginx:${RELEASE_TAG}"
+    build:
+      context: .
+      dockerfile: docker-nginx/Dockerfile
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+  webserve:
+    image: "pegasus-web-serve:${RELEASE_TAG}"
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    restart: always
+    ports:
+      - "5000:5000"

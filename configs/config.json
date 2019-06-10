@@ -1,0 +1,59 @@
+{
+  "verboseLogFile": {
+    "level": "verbose",
+    "filename": "./logs/verbose-%DATE%.log",
+    "handleExceptions": true,
+    "silent": false,
+    "maxsize": 52400,
+    "maxfiles": 1
+  },
+  "infoLogFile": {
+    "level": "info",
+    "filename": "./logs/info-%DATE%.log",
+    "handleExceptions": true,
+    "silent": false,
+    "maxsize": 52400,
+    "maxfiles": 1
+  },
+  "errorLogFile": {
+    "level": "error",
+    "filename": "./logs/error-%DATE%.log",
+    "handleExceptions": true,
+    "silent": false,
+    "maxsize": 52400,
+    "maxfiles": 1
+  },
+  "warnLogFile": {
+    "level": "warn",
+    "filename": "./logs/warning-%DATE%.log",
+    "handleExceptions": true,
+    "silent": false,
+    "maxsize": 52400,
+    "maxfiles": 1
+  },
+  "debugLogFile": {
+    "level": "debug",
+    "filename": "./logs/debug-%DATE%.log",
+    "handleExceptions": true,
+    "silent": false,
+    "maxsize": 52400,
+    "maxfiles": 1
+  },
+  "traceLogFile": {
+    "level": "trace",
+    "filename": "./logs/trace-%DATE%.log",
+    "handleExceptions": true,
+    "silent": false,
+    "maxsize": 52400,
+    "maxfiles": 1
+  },
+  "paths": { "keyPath": "./Keys/private.pem" },
+  "loggerTransports": {
+    "availableTransport_1": "MongoDB",
+    "availableTransport_2": "File",
+    "availableTransport_3": "Cassendra",
+    "availableTransport_4": "elasticsearch",
+    "setTransport": { "type": "elasticsearch" }
+  },
+  "elasticSearch": { "eUrl": "10.10.201.182:9200" }
+}

@@ -1,0 +1,27 @@
+var LogObjectConstantsMapping = {
+  transactionID: "transactionID",
+  request_id: "request_id",
+  relationID: "relationID",
+  tokenID: "tokenID",
+  originTime: "originTime",
+  host: "Host",
+  port: "Port",
+  level: "level",
+  label: "label",
+  url: "URL",
+  errno: "errorCode",
+  code: "errorCode",
+  logMessage: "logMessage",
+  message: "message",
+  PID: "PID",
+  registryID: "registryID",
+  applicationName: "applicationName",
+  registryName: "registryName",
+  userIPAddress: "userIPAddress",
+  userAgent: "userAgent",
+  userLocation: "userLocation",
+  userDevice: "userDevice",
+  loggerRequestObject: "LoggerRequestObject",
+  registryObject: "RegistryObject"
+};
+module.exports = LogObjectConstantsMapping;
