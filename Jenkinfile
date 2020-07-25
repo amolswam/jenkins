@@ -1,0 +1,3 @@
+echo "amol"
+
+emailext body: 'pfa', subject: 'report', to: 'amol.kekan4@gmail.com'
