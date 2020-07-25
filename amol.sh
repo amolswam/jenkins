@@ -1,2 +1,1 @@
-echo "welcome"
-pwd
+sh label: '', script: 'pwd'
