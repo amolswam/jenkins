@@ -19,7 +19,7 @@
     "chai-http": "^4.2.0",
     "circular-json": "^0.5.7",
     "concurrently": "^4.0.1",
-    "config": "^2.0.1",
+    "config": "^3.3.8",
     "cors": "^2.8.4",
     "cron": "^1.4.1",
     "dotenv": "^6.2.0",
